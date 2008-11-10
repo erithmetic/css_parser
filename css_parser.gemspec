@@ -26,7 +26,18 @@ Gem::Specification.new do |s|
     'test/test_rule_set_creating_shorthand.rb',
     'test/test_rule_set_expanding_shorthand.rb'
   ]
-  s.test_files = Dir.glob('test/test_*.rb') 
+  s.test_files = [
+    'test/test_css_parser_basic.rb',
+    'test/test_css_parser_downloading.rb',
+    'test/test_css_parser_media_types.rb',
+    'test/test_css_parser_misc.rb',
+    'test/test_css_parser_regexps.rb',
+    'test/test_helper.rb',
+    'test/test_merging.rb',
+    'test/test_rule_set.rb',
+    'test/test_rule_set_creating_shorthand.rb',
+    'test/test_rule_set_expanding_shorthand.rb'
+  ]
   s.has_rdoc = true
   s.extra_rdoc_files = ['README', 'CHANGELOG', 'LICENSE']
   s.rdoc_options << '--all' << '--inline-source' << '--line-numbers'
