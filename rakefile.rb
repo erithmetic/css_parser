@@ -65,7 +65,7 @@ end
 
 spec = Gem::Specification.new do |s| 
   s.name = 'css_parser'
-  s.version = '0.9.0'
+  s.version = '0.9.1'
   s.author = 'Alex Dunae'
   s.homepage = 'http://code.dunae.ca/css_parser'
   s.platform = Gem::Platform::RUBY
